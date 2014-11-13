@@ -1,0 +1,26 @@
+HTML BASICS
+===========
+
+HYPER TEXT MARKUP LANGUAGE
+
+Structure is key, the headings and subheading denote hierarchy. HTML code itself is usually made up of elements aka 1 or 2 tags, such as <h1></h1>. The tags act like containers.
+
+Attribute elements
+They tell us more about the HTML element/ whats inside the tags, and are often made up of 2 parts: NAME and VALUE.
+  eg. <p lang="eng-us">These paragraphs will be in English US because that is standard for code</p>
+
+  HEAD
+  TITLE
+  BODY
+
+  for example:
+
+<html>
+  <head>
+    <title>The title of a page is displayed in the tabs section or title bar</title>
+  </head>
+  <body>
+    <h1>Anything displayed here in the body will be displayed on the browser</h1>
+      <p>The 'head' is a separate thing altogether</p>
+  </body>
+</html>
