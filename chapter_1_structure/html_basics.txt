@@ -15,6 +15,7 @@ They tell us more about the HTML element/ whats inside the tags, and are often m
 
   for example:
 
+```bash
 <html>
   <head>
     <title>The title of a page is displayed in the tabs section or title bar</title>
@@ -24,3 +25,4 @@ They tell us more about the HTML element/ whats inside the tags, and are often m
       <p>The 'head' is a separate thing altogether</p>
   </body>
 </html>
+```

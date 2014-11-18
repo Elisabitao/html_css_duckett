@@ -17,4 +17,4 @@ This is usually done by a WEB HOSTING company rather than the company themselves
 Screens
 For those who are visually impaired or need them for practical reasons such as while running etc, there are SCREEN READERS. Pretty self explanatory. As technology is developing the kind of devices used to read or surf the internet are becoming more and more varied, therefore making sure our web pages have RESPONSIVE design is crucial.
 
-HTML and CSS are what a person sees on all websites, the more complex the page (eg, videos and animation etc) the more likely it is that Java, Javascript, Ruby etc have also been used but for most, the more common website and user interface is just built on content- HTML, and visual design- CSS
+HTML and CSS are what a person sees on all websites, the more complex the page (eg, videos and animation etc the more likely it is that Java, Javascript, Ruby etc have also been used but for most, the more common website and user interface is just built on content- HTML, and visual design- CSS
