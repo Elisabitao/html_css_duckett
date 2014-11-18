@@ -24,7 +24,7 @@ The URL - UNIVERSAL RESOURCE LOCATOR - is the web address, a domain name followe
 
 Links can use a shorthand when linking from one page to another in the same domain, this is called a RELATIVE URL.
 
-```bash
+```html
 <html>
   <title>Links</title>
   <body>
