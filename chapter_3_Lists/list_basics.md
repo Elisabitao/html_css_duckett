@@ -1,5 +1,4 @@
-LIST BASICS
-===========
+# LIST BASICS
 
 There are 3 main list types of note, the first being ORDERED ```<ol></ol>```, wherein each item is numbered, UNORDERED ```<ul></ul>```, which means the list is simply made up of bullet points, and DEFINITION ```<dl></dl>``` lists.
 
