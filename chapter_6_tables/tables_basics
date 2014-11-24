@@ -4,4 +4,24 @@ A table represents information in a grid format, which allow us to reference dat
 
 The ```<table></table>``` element is used to create/ contain the table itself (much like the ```<body></body>``` element for what is shown on a browser) the contents of which as stated are written out row by row.
 
-sfjkghlaskjghasl
+You indicate the start of each row with the ```<tr><tr>``` tag and for each cell you use the ```<td></td>``` tags.
+
+(It is worth noting that some browsers plce lines around tables automatically, that said, CSS is the proper tool to use if that is the desired effect)
+
+Headings for tables are created using ```<th></th>```, it is beat to use the scope element like you would use the `alt` element in the `img` tag; aka, in order to futher clarify what it is for, a `row` or `col`.
+
+Column spans are adjusted using the ```colspan=""``` when used in the ```<td><td>``` tags, aka: ```<td>colspan="3"</td>```.
+It is the same for spanning particular rows: ```<td>rowspan="2"</td>```.
+
+<table>
+  <tr>
+    <th>House</th>
+    <th>Personality Traits</th>
+    <th>Colour</th>
+  </tr>
+  <tr>
+    <td>Griffindor</td>
+    <td>Bravery</td>
+    <td>Red</td>
+  </tr>
+</table>

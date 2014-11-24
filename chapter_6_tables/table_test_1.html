@@ -1,0 +1,72 @@
+<html>
+<head>
+  <title>Table examples</title>
+</head>
+<body>
+  <h2>Harry Potter Table</h2>
+  <p>Their houses and their traits:</p>
+
+    <table>
+      <tr>
+        <th></th>
+        <th scope="col">House</th>
+        <th scope="col">Characteristics</th>
+        <th scope="col">Colour</th>
+      </tr>
+      <tr>
+        <th scope="row">HP</th>
+        <td>Griffindor</td>
+        <td>Bravery</td>
+        <td>Red</td>
+      </tr>
+      <tr>
+        <th scope="row">HP</th>
+        <td>Hufflepufff</td>
+        <td>Loyalty</td>
+        <td>Yellow</td>
+      </tr>
+      <tr>
+        <th scope="row">HP</th>
+        <td>Slytherin</td>
+        <td>Ambition</td>
+        <td>Green</td>
+      </tr>
+      <tr>
+        <th scope="row">HP</th>
+        <td>Ravenclaw</td>
+        <td>Intelligence</td>
+        <td>Blue</td>
+      </tr>
+    </table>
+
+  <h2>Class timetable example</h2>
+  <p>To demonstrate column spans and row spans, CSS is needed for more clarification but the example still stands:</p>
+    <table>
+      <tr>
+        <th></th>
+        <th scope="col">Monday</th>
+        <th scope="col">Tuesday</th>
+        <th scope="col">Wednesday</th>
+      </tr>
+      <tr>
+        <th scope="row">9am</th>
+        <td rowspan="2">Maths</td>
+        <td>English</td>
+        <td rowspan="2">Art</td>
+      </tr>
+      <tr>
+        <th scope="row">10am</th>
+        <td rowspan="2">Science</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">11am</th>
+        <td>Art</td>
+        <td>Geography</td>
+        <td></td>
+      </tr>
+
+    </table>
+  </body>
+</html>
