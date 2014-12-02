@@ -116,42 +116,15 @@ multiple select boxes are the exact same as above, except they include the ```si
 ####SUBMIT BUTTON
 
 This goes back to the ```<input>``` tag and means that the type is now:```<type="submit">```. Now the ```Name``` becomes the point of the button or its purpose aka, *if you submit a invoice then you can name it that*. The ```value``` is now *whats written on the button* or seen by the user.
-
-####FILE INPUT BOX
-
-This means using the ```<input>``` tag again, and making the ```type="file"```.This means that it will create a text box PLUS a 'browse button' for the user to search for the desired file.
-
-When allowing users to upload a file, the GET method MUST be __POST__!!!
-
 ```html
-<html>
-  <head>
-    <title>Uploading Songs</title>
-  </head>
-  <body>
-    <form action="http://www.example.com/subscribe.php">
-      <p>Upload your favourite song in MP3 format:</p>
-      <input type="file" name="user's song">
-      <br />
-      <input type="submit" value="upload">
-    </form>
-  </body>
-</html>
+<form action="http://www.example.com/subscribe.php">
+  <p>Subscribe to some shitty email list:</p>
+  <input type="text" name="email"><!-- this is the text box to put your email into -->
+  <input type="submit" name="Subscribe"><!--  this is the button -->
+</form>
 ```
-    <form action="http://www.example.com/subscribe.php">
-      <p>Upload your favourite song in MP3 format:</p>
-      <input type="file" name="user's song">
-      <input type="submit" value="Upload">
-    </form>
-
-
-
-
-
-
-
-
-
-
-
-
+<form action="http://www.example.com/subscribe.php">
+  <p>Subscribe to some bloody email list:</p>
+  <input type="text" name="email">
+  <input type="submit" name="Subscribe">
+</form>
