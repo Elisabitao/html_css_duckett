@@ -90,6 +90,74 @@ Grouping elements and text in blacks of code makes sense for easy reading/ clari
 
 The ```<span></span>``` element is used for the same reasons as the div, the main difference being that it is *in line* rather than a 'section'. The main reason this is useful is so that we can edit a specific part of a paragraph with CSS. It usually comes with a *class* to not only more clearly identify the CSS styles used but to also explain the purpose of the ```<span>```.
 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <p>The most common reason why people use elements is so that they can <span class="example"> control the appearance of the content of these elements </span> using CSS.</p>
+  </body>
+</html>
+```
+
+####IFRAMES
+
+DONT BOTHER. __NO BODY LIKES THEM__.
+
+####META
+
+The ```<meta>``` element is placed inside the ```<head>``` element, and contains information about the web page. It is most useful for search engines as it contains info about your page, who created it, if its time sensitive, etc. __Name__ and __Content__ tend to be the most common uses for it.
+
+The ```<meta name="">``` attribute can be anything, but some common examples are *Description*: of the page, *Keywords*: list of words associated/ one might use to search for the web site, and *Robots*: indicates whether search engines should add this page to their search results or not (a value of  *'no index'* can be used if not, and *'no follow'* if they can use it but not any pages that it links to).
+
+```html
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Info about your pages</title>
+      <meta name="description"
+        content="An essay on information about your pages and html and search engines" />
+      <meta name="keywords"
+        content="html, info, information, search engines, browsers" />
+      <meta name="robots"
+        content="no follow" />
+    </head>
+    <body>
+      <h1>Information on your pages:</h1>
+      <p>In the first line of the example on the opposite page, you can see a meta element where the name attribute indicates an intention to specify a description for the page. The content attribute is where this description is actually specified.</p>
+    </body>
+  </html>
+```
+
+The meta also uses the ```<meta http-equiv>``` and content attributes in pairs.
+*Author*: defines the author, *Pragma*: prevents the browser from caching the page, and *Expires*: is used to indicate when the page should expire - the date must be specified!.
+
+```html
+  <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Info about your pages</title>
+        <meta name="description"
+          content="An essay on information about your pages and html and search engines" />
+        <meta name="keywords"
+          content="html, info, information, search engines, browsers" />
+        <meta name="robots"
+          content="no follow" />
+        <meta http-quiv="author"
+          content="Merve Silk" />
+        <meta http-quiv="pragma"
+          content="no-cache" />
+        <meta http-quiv="expires"
+          content="Wed, 13 Jun 2014 23:59:59 GMT" />
+      </head>
+      <body>
+        <h1>Information on your pages:</h1>
+        <p>In the first line of the example on the opposite page, you can see a meta element where the name attribute indicates an intention to specify a description for the page. The content attribute is where this description is actually specified.</p>
+      </body>
+    </html>
+```
 
 
 
