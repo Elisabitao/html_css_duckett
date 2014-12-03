@@ -1,8 +1,6 @@
 ###CONTROLS (Types of input!)
 ####TEXT
 
-  * kjasdnfkljsdhfadjksh
-
 The ```<input>``` element is used to create several different form controls. For eg: ```type="text"``` - which means single line input. The server needs to know which form control the user entered data into, therefore the *name* needs to be clarified. *Size* attribute should __NOT__ be used in new forms any more, though just as a reminder, they were measured in character length. Oddly though, the```maxlength="8"``` attribute is fine to still use....
 
 ```html
