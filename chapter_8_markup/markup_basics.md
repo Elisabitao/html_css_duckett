@@ -79,10 +79,10 @@ Block elements always start on a new line automatically, some examples include:
 
 These are elements that always appear to continue on the same line:
 
-   * ```<a></a>```
+   * Anchor (link) ```<a></a>```
    * Bold ```<b></b>```
    * Emphasis ```<em></em>```
-   * ```<img></img>```
+   * Image ```<img></img>```
 
 ####GROUPING
 
