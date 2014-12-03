@@ -25,5 +25,29 @@ This technique uses a ```<div>``` element and ID for clarification.
     </body>
   </html>
 ```
+Browsers differ in the formats they do and dont support. Players and plugins are becoming obsolete ever since HTML5 created the ```<video>``` element. Obviously though every browser cannot be depended upon to have the most up to date version and so require the ```<video>``` element to be encoded in various formats.
+
+###ADVANTAGES
+The easiest way to add video to your site is to use a video hosting service such as YouTube or Vimeo. By doing so you dont need to worry about encoding your own video since these sites allow you to upload your content in a variety of formats, and they automatically convert them for you, plus you dont need to pay for bandwidth.
+
+##DISADVANTAGES
+It wont be exclusive to your site any more, some may limit what it is you want to include, and many will play their own adverts.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
