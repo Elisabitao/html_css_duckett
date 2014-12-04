@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset=UTF-8>
+      <title>Ultimate forms controls test!</title>
+    </head>
+    <body>
+    <h1>FORMS TEST BEGINS......so many kinds of buttons and glooooorious boxes await you young padawan.....</h1>
+      <form action="http://www.example.com/subscribe.php">
+        <fieldset>
+        <legend>User access</legend>
+        <p>Username:
+          <input type="text" name="username" size="20" maxlength="25"  required="required" />
+          <input type="submit" name="submit" value="enter username">
+        </p>
+        <p>Password:
+          <input type="password" name="password" size="20" maxlength="15" required="required" />
+          <input type="submit" name="submit" value="enter password">
+        </p>
+        <p>Email:
+          <input type="email" name="email" value="enter email here..." size="20" maxlength="25" required="required" />
+          <input type="submit" name="submit" value="Submit this">
+        </p>
+        </fieldset>
+        <fieldset>
+        <legend>Opinions</legend>
+        <p>What do you think of your revision period so far?</p>
+          <textarea name="Opinion" id="Opinion box" cols="50" rows="30">Give us your opinion...</textarea>
+        <p>Please select an option:
+        <br />
+          <input type="radio" name="Music genres" value="Rock" />Rock
+          <input type="radio" name="Music genres" value="Pop" />Pop
+          <input type="radio" name="Music genres" value="Jazz" />Jazz
+        </p>
+        <p>What do you like to listen to it on?
+        <br .>
+          <input type="checkbox" name="Music players" value="CD" />CD Players
+          <input type="checkbox" name="Music players" vlaue="Spotify" />Spotify
+          <input type="checkbox" name="Music players" value="MP3">MP3 Players
+        </p>
+        <p>What is the best way to experience a country?</p>
+        <select name="travel methods">
+          <option value="Cycling">Cycling through</option>
+          <option value="Driving">Driving in a car</option>
+          <option value="Biking">On Motorbike</option>
+          <option value="Backpacking">Backpacking</option>
+        </select>
+        <p>Add your favourite colour:</p>
+        <input type="text" name="colour">
+        <input type="submit" name="Submit" value="Colour choice">
+        </fieldset>
+      </form>
+    </body>
+  </html>

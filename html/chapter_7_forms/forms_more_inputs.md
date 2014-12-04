@@ -10,18 +10,18 @@ When allowing users to upload a file, the GET method MUST be __POST__!!!
     <title>Uploading Songs</title>
   </head>
   <body>
-    <form action="http://www.example.com/subscribe.php">
+    <form action="http://www.example.com/subscribe.php" method="post">
       <p>Upload your favourite song in MP3 format:</p>
       <input type="file" name="user's song" />
-      <input type="submit" value="upload" />
+      <input type="submit" name="Submit" value="Upload button" />
     </form>
   </body>
 </html>
 ```
-    <form action="http://www.example.com/subscribe.php">
+    <form action="http://www.example.com/subscribe.php" method="post">
       <p>Upload your favourite song in MP3 format:</p>
       <input type="file" name="user's song" />
-      <input type="submit" value="Upload" />
+      <input type="submit" name="Submit" value="Upload button" />
     </form>
 
 ####IMAGE BUTTON
@@ -80,7 +80,7 @@ Each from control should have its own <label> element as this makes the form acc
 
 ####GROUPING FORM ELEMENTS
 
-To group related form controls you need to use the ```<fieldset>``` element. Normally the ```<legend>``` element comes directly after in order to explain the commonality of the grouping:
+To group related form controls you need to use the ```<fieldset>``` element. Normally the ```<legend>``` element comes directly after in order to explain the commonality of the grouping *bare in mind this will create a boarder around your questions:
 
 ```html
 <form action="http://www.example.com/subscribe.php">
@@ -193,16 +193,3 @@ There is also the new ```<input type="search">```
   <input type="search" name="search" />
   <input type="submit" value="Search" />
 </form>
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -64,6 +64,9 @@ If there are 2 or more rules that apply to a stylesheet then the later will over
 
 INHERITANCE IS KEY! if you specify font or colour to the ```<body>``` element then most of the child elements will adapt as a result
 
+#Remember:
+Use a '.' to identify the __CLASS__ and a '#' to identify the __ID__
+
 
 
 

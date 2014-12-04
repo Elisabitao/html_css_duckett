@@ -1,0 +1,30 @@
+body {
+  background-color: #FFFF00;
+}
+
+h1 {
+  color: #8A0829;
+  font-family: Courier;
+}
+
+h2 {
+  color: #FE2E2E;
+  font-family: lucida;
+}
+
+.fantasy info {
+  font-family: Comic;
+  text-align: center;
+}
+
+#paragraph 2 {
+  background-color: #00FFFF;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#for show {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-color: red;
+}
+
+

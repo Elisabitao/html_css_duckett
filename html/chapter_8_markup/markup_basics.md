@@ -108,6 +108,8 @@ DONT BOTHER. __NO BODY LIKES THEM__.
 
 ####META
 
+__Put this at the top of EVERY html file in the ```<head>``` section: ```<meta charset=UTF-8>```__
+
 The ```<meta>``` element is placed inside the ```<head>``` element, and contains information about the web page. It is most useful for search engines as it contains info about your page, who created it, if its time sensitive, etc. __Name__ and __Content__ tend to be the most common uses for it.
 
 The ```<meta name="">``` attribute can be anything, but some common examples are *Description*: of the page, *Keywords*: list of words associated/ one might use to search for the web site, and *Robots*: indicates whether search engines should add this page to their search results or not (a value of  *'no index'* can be used if not, and *'no follow'* if they can use it but not any pages that it links to).
@@ -116,6 +118,7 @@ The ```<meta name="">``` attribute can be anything, but some common examples are
 <!DOCTYPE html>
   <html>
     <head>
+      <meta charset=UTF-8>
       <title>Info about your pages</title>
       <meta name="description"
         content="An essay on information about your pages and html and search engines" />
@@ -138,6 +141,7 @@ The meta also uses the ```<meta http-equiv>``` and content attributes in pairs.
   <!DOCTYPE html>
     <html>
       <head>
+        <meta charset=UTF-8>
         <title>Info about your pages</title>
         <meta name="description"
           content="An essay on information about your pages and html and search engines" />

@@ -124,5 +124,5 @@ This goes back to the ```<input>``` tag and means that the type is now:```<type=
 <form action="http://www.example.com/subscribe.php">
   <p>Subscribe to some bloody email list:</p>
   <input type="text" name="email">
-  <input type="submit" name="Subscribe">
+  <input type="submit" name="Subscribe" value="submit email">
 </form>
