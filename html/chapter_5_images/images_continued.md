@@ -33,3 +33,17 @@ HTML5 has a new tag that includes the caption option for the image in question. 
   </body>
 </html>
 ```
+
+<html>
+  <head>
+    <title>Image captions</title>
+  </head>
+  <body>
+    <h1>Captions</h1>
+    <figure>
+      <img src="Desktop/the-struggle.jpg" alt="baby elephant trying to go uphill">
+      <br />
+      <figcaption>Here is my life learning code....</figcaption>
+    </figure>
+  </body>
+</html>

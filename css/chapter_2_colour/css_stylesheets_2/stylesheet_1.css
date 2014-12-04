@@ -1,0 +1,36 @@
+body {
+  background-color: #010806;
+}
+
+h1 {
+  color: #8C1521;
+  font-family: Courier;
+}
+
+h3 {
+  color: #BF081A;
+  font-family: impact;
+}
+
+p {
+  color: #E66572;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  opacity: 0.2;
+}
+
+p:hover {
+  opacity: 1.0;
+}
+
+ul {
+  color: #FA4639;
+  font-family: Courier;
+}
+
+img {
+  opacity: 0.4;
+}
+
+img:hover {
+  opacity: 1.0
+}
