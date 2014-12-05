@@ -74,7 +74,7 @@ Then there is the ```text-decoration``` options
     * __text-align__: left/ right/ centre/ __justify__ - this means every line should fit to the width of the page apart from the last one
 <br>
   * __vertical-align__: This is to be used with ```*<em>, <img> and <strong>*``` NOT TEXT aka ```<div> | <p>```. They have similar properties:
-    * sub | super | top | text-top | middle | bottom | text-bottom | length(em) | percentage(og line height)
+    * sub | super | top | text-top | middle | bottom | text-bottom | length(em) | percentage(of line height)
   * __text-indent__: obvious, but can also take a negative value which means the text is still on the page for search engines to find, but not used visually on the browser, aka: ```p { text-indent: -9999px ;}```
 
 __text-shadow__: This one is quite complex, it is used to create a darker version of the word behind it that is slightly offset OR an embossed effect by doing the same thing but with a lighter colour instead. It is written out in 3 sometimes 4 properties, the first indicates *how far to the left or right the shadow should fall*. The second property *indicates the distance on the top/ bottom the shadow should fall. The third is optional and specifies *the amount of blur on the shadow*. Finally there is the *colour*.

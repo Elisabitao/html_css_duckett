@@ -5,32 +5,44 @@ body {
 h1 {
   color: #8C1521;
   font-family: Courier;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+h1:first-letter {
+  font-weight: bold;
+  font-size: 200%;
 }
 
 h3 {
   color: #BF081A;
   font-family: impact;
+  text-transform: capitalize;
 }
 
 p {
   color: #E66572;
   font-family: "Comic Sans MS", cursive, sans-serif;
-  opacity: 0.2;
+  text-align: justify;
 }
 
-p:hover {
-  opacity: 1.0;
+p:first-line {
+  color: #FA39F7;
+  font-family: arial, extended, serif;
+  font-size: 1.4em;
 }
 
 ul {
   color: #FA4639;
   font-family: Courier;
+  text-align: right;
 }
 
 img {
   opacity: 0.4;
-  width: 240;
-  height: 240;
+  width: 240px;
+  height: 240px;
+  vertical-align: middle;
 }
 
 img:hover {
