@@ -11,7 +11,7 @@ p {
   font-stretch: extended;
 }
 ```
-__SERIF & SANS-SERIF:__ ![](./images_3/serif_sans_serif.png)
+__SERIF & SANS-SERIF:__ ![](./images_3/serif_sans_serif.png )
 
 CSS needs the font-family and the size for text
 
