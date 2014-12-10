@@ -21,4 +21,25 @@ You can further specify if you want the *top*, *right*, *bottom*, *left* width [
 
 ![](./images_4/css_boxes.png)
 
+Boarder style properties can vary, and be very useful:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
