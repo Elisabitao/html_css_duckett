@@ -31,15 +31,59 @@ as can their colours:
 
 *Boarders also allow us to use a shorthand to set the width, style and color all in one property!*
 *make sure they follow that order*
-
 ```p.one { width: 300px; boarder: 6px dotted #pink; }```
 
+####CENTER
 In order to __center__ a box on a page, you need to set the width of the box, and set the left and right-margin to 'auto'
 
+####INLINE | INLINE-BLOCK | NONE
+To turn lists into line or blocks into line elements just use the ```inline | bock | inline-block | none``` elements. Inline-block causes the block-level element to act like a line element, but the rest of the block to stay the same. None element hides it from the page as if it was never there in the first place...
+```p.one { display: inline; } p.two { display: none; }```
 
+####VISIBILITY
+Visibility element hides the boxes from the users view but shows its absence. ```p.ome { visibility: hidden }```
 
+####BOARDER-IMAGE
+__boarder-image__ property is very interesting, it takes a background image and SLICES it into 9 pieces. The 4 corner pieces are always placed as they are cut but the 'side' pieces can be stretched or repeated.
+This property requires a *boarder width*, plus 3 sets of information:
 
+  * The URL
+  * WHere to slice
+  * what to do with the edge pieces (*stretch, repeat or round* - round is like repeat but fits the image to scale better)
 
+The extra webproperties are to make sure that the image shows up clearly in all browsers (chrome/ firefox/ safari etc)
+
+```css
+p.two {
+  -moz-border-image: url("./images_4/.png")
+    11 11 11 11 stretch;
+  -webkit-border-image: url("./images_4/.png")
+    11 11 11 11 stretch;
+  -border-image: url("./images_4/.png")
+    11 11 11 11 stretch;
+}
+```<br>
+####BOX SHADOW
+The ```box-shadow``` effect works the same as the text-shadow property, which means you need to use at least 2 values as well as colour (so technically you can use 2/3/4). The potential shadow effects include:
+horizonta
+
+```css
+p.three {
+  -moz-box-shadow: 5px 5px #orange;
+  -webkit-box-shadow: 5px 5px #777777;
+  box-shadow: 5px 5px #888888;
+}
+p.FOUR {
+  -moz-box-shadow: 0px 0px 5px 5px #orange;
+  -webkit-box-shadow: 0px 0px 5px 5px #777777;
+  box-shadow: 0px 0px 5px 5px #888888;
+}
+p.five {
+  -moz-box-shadow: inset 0px 0px 0px 5px #orange;
+  -webkit-box-shadow: inset 0px 0px 0px 5px #777777;
+  box-shadow: inset 0px 0px 0px 5px #888888;
+}
+```<br>
 
 
 
