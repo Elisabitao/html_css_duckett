@@ -65,13 +65,17 @@ p.two {
 ```<br>
 ####BOX SHADOW
 The ```box-shadow``` effect works the same as the text-shadow property, which means you need to use at least 2 values as well as colour (so technically you can use 2/3/4). The potential shadow effects include:
-horizonta
+
+__horizontal offset__ - negative values position the shadow to the left of the box
+__vertical offset__ - negative values position the shadow to the top of the box
+__blur distance__ - if omitted the shadow is solid like a boarder
+__spread of shadow__ - will cause the shadow to expand in all directions (negative will make it contract)
 
 ```css
 p.three {
-  -moz-box-shadow: 5px 5px #orange;
-  -webkit-box-shadow: 5px 5px #777777;
-  box-shadow: 5px 5px #888888;
+  -moz-box-shadow: -5px -5px #orange;
+  -webkit-box-shadow: -5px -5px #777777;
+  box-shadow: -5px -5px #888888;
 }
 p.FOUR {
   -moz-box-shadow: 0px 0px 5px 5px #orange;
@@ -84,9 +88,33 @@ p.five {
   box-shadow: inset 0px 0px 0px 5px #888888;
 }
 ```<br>
+####BOARDER-RADIUS (rounded corners)
+  The property shows the value of the size of the radius pixels, and each corner can be separate or rather have a separate value, of which you can use the shorthand of ```p.one { border-radius: 6px 15px 15px 6px; }```:
+```css
+p.three {
+  border: 10px solid #cccccc;
+  padding: 30px;
+  width: 300px;
+  text-align: justify;
+  border-radius: 12px;
+  -moz-border-bottom-left-radius: 12px;
+  -webkit-border-bottom-left-radius: 12px;
+}
+```<br>
 
+####More complex shapes
+To do so, you can specify the different distances for the horizontal and the vertical parts of the rounded corners:
 
+![](./images_4/border-radius.png)
 
+its best to use the shorthand if you want to be more specific:
+```css
+p.three {
+  border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+  -moz-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+  -webkit-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+}
+```
 
 
 
