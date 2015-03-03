@@ -40,10 +40,17 @@ Header elements should be used as a container for introductory content. Footers 
               <p>No you're not I am!</p>
             </article>
         </section>
+        <footer>
+          <p>Posted By: Mervé Silk</p>
+          <p>Contact info: <a href="mailto:mervesilksaddress@mail.com">Merve's Email Address</a>.</p>
+        </footer>
       </article>
     </body>
   </html>
 ```
+###SECTION element
+
+The main difference between 'article' and 'section' tags, is that article elements are typically a more defined version of sections, and if used to represent a group of __related content__ within another tags boundaries. In contrast the 'div' is a bock of content in itself, i.e. does not need to be related to other information/ elements. REF ABOVE EG!
 
 ###MAIN element
 
@@ -68,32 +75,121 @@ The 'main' element ```<main role="main"></main>``` should be used for the main c
     </body>
   </html>
 ```
+###NAV element
 
+This element is used to mark up a collection of *links* or *external pages*, or *sections within the current page*. Not all navigational links need to be placed inside this kind of element, only major ones.
 
+```html
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset=UTF-8>
+      <title></title>
+    </head>
+    <body>
+      <h1>Example</h1>
+      <p>stuff and things</p>
+      <p>more exmple crap</p>
+      <nav>
+        <ol>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Tools</a></li>
+        </ol>
+        <ul>
+          <li><a href="/html/">HTML</a></li>
+          <li><a href="/css/">CSS</a></li>
+          <li><a href="/js/">JavaScript</a></li>
+          <li><a href="/jquery/">jQuery</a></li>
+        </ul>
+      </nav>
+    </body>
+  </html>
+```
 
+###ASIDE element
 
+The trick is in the title... think sidebars or content that is to the side of the overall page...
 
+```html
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset=UTF-8>
+      <title></title>
+    </head>
+    <body>
+      <main role="main">
+        <article>
+          <h1>Guitars</h1>
+          <p id="guitar">guitars are cool etc...</p>
+        </article>
+        <aside>
+          <h4>The SideBar<h4>
+          <p>Guitar Strings</p>
+          <p>Guitar History</p>
+        </aside>
+      </main>
+    </body>
+  </html>
+```
+###FIGURE element
 
+The purpose of this element ```<figure></figure>```is to add a description to the image at hand, hense the ```<figcaotion></figcaotion>``` aspect that goes hand in hand with this tag:
 
+```html
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset=UTF-8>
+      <title></title>
+    </head>
+    <body>
+      <main role="main">
+        <article>
+          <h1>Guitars</h1>
+          <p id="guitar">guitars are cool etc...</p>
+          <figure>
+            <img src="pic_guitare.jpg" alt="Black Guitar">
+            <figcaption>Fig.1 Black Guitar, Soho Shop</figcaption>
+          </figure>
+        </article>
+        <aside>
+          <h4>The SideBar<h4>
+          <p>Guitar Strings</p>
+          <p>Guitar History</p>
+        </aside>
+      </main>
+    </body>
+  </html>
+```
+###ADDRESS element
 
+The contact element basically, often seen inside a footer:
 
-
-
-
-
-
-
-
-
-      <article>
-        <h1>WWF Fraud and Prevention</h1>
-        <p id="WWFideals">WWF’s principle is to take a “zero tolerance” approach towards fraud and corruption in its offices around the world. The WWF Network follows common standards on the prevention of fraud and corruption. This is WWF International’s policy on the prevention of fraud and corruption. It is followed by WWF International and all the Programme Offices which report into it.</p>
-      </article>
-        <footer>
-          <p>Posted By: Mervé Silk</p>
-          <p>Contact info: <a href="mailto:mervesilksaddress@mail.com">Merve's Email Address</a>.</p>
-        </footer>
-
+```html
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset=UTF-8>
+      <title></title>
+    </head>
+    <body>
+     <article>
+      <h1>Guitars</h1>
+      <p id="guitar">guitars are cool etc...</p>
+      <footer>
+        <p>Posted By: Mervé Silk</p>
+        <address>
+          <a href="mailto:mervesilksaddress@mail.com">Contact Email</a>.</p>
+        </address>
+       </footer>
+     </article>
+    </body>
+  </html>
+```
 
 
 
