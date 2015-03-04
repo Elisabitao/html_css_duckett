@@ -17,9 +17,7 @@ Naturally lists within lists is possible...
       <li>The Subtle Knife</li>
       <li>The Amber Spyglass</li>
     </ol>
-
     <hr />
-
     <p>and now an <em>unordered</em> one because I dont know who is my favourite...</p>
     <ul>
       <li>Finn</li>
@@ -33,9 +31,7 @@ Naturally lists within lists is possible...
       <li>Wormy</li>
       <li>The Ice King</li>
     </ul>
-
     <hr />
-
     <p>Last but not least, the <strong>DEFINITION</strong> list...here is a game of colour association:</p>
     <dl>
       <dt>Green</dt>
@@ -59,9 +55,7 @@ and the results being:
       <li>The Subtle Knife</li>
       <li>The Amber Spyglass</li>
     </ol>
-
     <hr />
-
     <p>and now an <em>unordered</em> one because I dont know who is my favourite...</p>
     <ul>
       <li>Finn</li>
@@ -75,9 +69,7 @@ and the results being:
       <li>Wormy</li>
       <li>The Ice King</li>
     </ul>
-
     <hr />
-
     <p>Last but not least, the <strong>DEFINITION</strong> list...here is a game of colour association:</p>
     <dl>
       <dt>Green</dt>
